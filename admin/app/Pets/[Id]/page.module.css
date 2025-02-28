@@ -1,0 +1,49 @@
+.PetSpecificpage{
+    display: flex;
+
+    justify-content: center;
+    margin-block:50px ;
+    gap: 20px;
+}
+.PetSpecificpage div img {
+object-fit: contain;
+border-radius: 10px;
+box-shadow: var(--boxShadow);
+}
+.PetSpecificpage .Content {
+    padding: 2px;
+}
+.PetSpecificpage .Content .Breed {
+    font-size: 15px;
+    background: var(--main);
+    width: max-content;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 999px;
+    text-transform: capitalize;
+    padding: 5px 16px;
+}
+
+.PetSpecificpage .Content .PetName {
+    font-size: 40px;
+    font-weight: 800;
+    margin-block: 10px;
+}
+.PetSpecificpage .Content .GrnderAge{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.GrnderAge span {
+margin-right: 20px;
+}
+.PetSpecificpage .Content .Intro{
+    border-left: 30px solid var(--main);
+    box-shadow: var(--boxShadow);
+    padding: 10px;
+    margin-block:20px ;
+}
+.PetSpecificpage .Content .Desc {
+    color: #2d2a2a;
+}

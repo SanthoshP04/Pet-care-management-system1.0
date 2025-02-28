@@ -1,0 +1,11 @@
+.AddNewBlog{
+    display: flex;
+    justify-content: center;
+    margin-block: 50px;
+
+}
+.AddNewBlog .AddNewBlog_Row {
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+    padding: 20px;
+}

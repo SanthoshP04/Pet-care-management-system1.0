@@ -1,0 +1,73 @@
+.PetsMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 25px;
+    margin-block:30px ;
+}
+.PetsMain .PetsRow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.PetsMain .PetsRow .PetsBox{
+    position: relative;
+    width: calc(100% / 3 - 20px);
+    height: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(55, 54, 54, 0.7);}
+    .PetsBox:hover{
+       
+        transform: scale(1.02);
+    }
+.PetsBox img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.PetsBox .PetsBoxContent{
+    padding: 10px;
+}
+.PetsBox .Breed{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   font-size: 15px;
+   background: var(--main);
+   color: #3c3b3b;
+   border-radius: 999px;
+   width: max-content;
+   padding: 4px 14px;
+}
+.PetsBox .PetsBoxContent div{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+
+}
+.PetsBox .PetsBoxContent div p{
+    color:var(--main);
+}
+.PetsBox .PetsBoxContent .Desc{
+    font-size: 13px;
+    color: #585353;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    margin-bottom: 12px;
+}
+.PetsBox .PetsBoxContent .Btn {
+    width: max-content;
+    background: var(--main);
+    color:#fff;
+    border-radius: 999px;
+    padding: 5px 15px;
+    text-decoration: none;
+}

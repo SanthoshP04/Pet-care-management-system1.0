@@ -1,0 +1,84 @@
+.AllPets_Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 120%;
+}
+.AllPets_Main .AllPets_Row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.AllPets_Main .AllPets_Row .AllPets_Box{
+    position:relative;
+    width:calc(100% / 3 - 25px);
+    height:550px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: var(--boxShadow);
+}
+.AllPets_Box:hover{
+    transform: scale(1.02);
+}
+.AllPets_Box .Breed{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: var(--main);
+    font-size: 20px;
+    padding: 4px 15px;
+    border-radius: 999px;
+    color: #fff;
+font-weight: 800;
+text-transform: capitalize;
+  
+}
+.AllPets_Box img{
+    width: 100%;
+    object-fit: cover;
+}
+.AllPets_Box .AllPets_Box_Content{
+    padding: 5px;
+}
+.AllPets_Box .AllPets_Box_Content .AllPets_CustomerDetails{
+    margin-block: 6px;
+}
+.AllPets_Box .AllPets_CustomerDetails span{
+    margin-inline:5px ;
+    background: var(--main);
+    width: max-content;
+    padding: 3px 10px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 999px;
+}
+.AllPets_Box_Content h6{
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.AllPets_Box_Content h6 span{
+    color: var(--main);
+}
+.AllPets_Box_Content .AllPets_Box_Intro{
+    font-size: 12px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+}
+.AllPets_Box_Content a{
+    color: #fff;
+    background: var(--main);
+    padding: 7px 15px;
+    border-radius: 999px;
+    font-weight: 800;
+font-size: 13px;
+}

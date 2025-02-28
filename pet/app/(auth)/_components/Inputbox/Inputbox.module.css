@@ -1,0 +1,17 @@
+.Inputbox{
+    margin-block:8px ;
+}
+.Inputbox lable{
+    font-size: 19px;
+   
+
+}
+.Inputbox input{
+    width: 500px;
+    background: #ccc;
+    padding: 9px 16px;
+    border-radius: 800px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top:8px ;
+}

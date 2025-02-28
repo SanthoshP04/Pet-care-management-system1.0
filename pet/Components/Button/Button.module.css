@@ -1,0 +1,27 @@
+
+.Btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #f9bc05;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .Btn:hover {
+    background-color: #f2b305;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Btn:active {
+    background-color: #fbb00f;
+    transform: translateY(0);
+    box-shadow: none;
+  }

@@ -1,0 +1,43 @@
+.AddNewPetForm_Main{
+    display: flex;
+    justify-content: center;
+    margin-block: 5px;
+}
+.AddNewPetForm_Main
+.AddNewPetForm_Row{
+    box-shadow: var(--boxShadow);
+    padding: 15px;
+    border-radius: 10px;
+}
+.AddNewPetForm_Row form h6{
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--main);
+    text-align: center;
+}
+.ImageUpload{
+    margin-block: 20px;
+}
+.ImageUpload{
+    font-weight: 800;
+    font-size: 18px;
+}
+.UploadDropzone_WithImg{
+    display: flex;
+    gap: 15px;
+}
+.UploadDropzone_WithImg img{
+    border-radius: 10px;
+    box-shadow: var(--boxShadow);
+    object-fit: cover;
+}
+.AddNewPetForm_Main .AddNewPetForm_Row form .btn{
+    width: 100%;
+    background: var(--main);
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 6px 18px;
+    border-radius: 999px;
+    cursor: pointer;
+}

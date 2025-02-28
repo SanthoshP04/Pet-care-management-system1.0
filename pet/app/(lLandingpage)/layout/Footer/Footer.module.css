@@ -1,0 +1,12 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    
+    padding-inline: 200px;
+    padding-block: 30px;
+}
+.Footer h6{
+    color: #ccc;
+font-size: 18px;
+}

@@ -1,0 +1,33 @@
+.AddNewBlogForm h6 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--main);
+}
+.AddNewBlogForm .Btn{
+    width: 100%;
+    background: var(--main);
+    padding: 6px 18px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.ImageUpload{
+    margin-block: 20px;
+}
+.ImageUpload label{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.UploadDropzone_WithImage{
+    display: flex;
+    gap: 15px;
+}
+.UploadDropzone_WithImage img{
+    border-radius: 10px;
+    box-shadow: var(--boxShadow);
+    margin-top: 6px;
+}

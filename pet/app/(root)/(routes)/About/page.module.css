@@ -1,0 +1,30 @@
+.Aboutus,.Vision{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.Aboutus .AboutusContent,.Aboutus .AboutusImg,.Vision div{
+    flex: 1 1 45rem;
+}
+.Aboutus .AboutusContent h6,
+.Vision div h6{
+    font-weight: 700;
+    color: var(--main);
+    font-size: 40px;
+    border-radius: 0.2px dashed #fff;
+    width: max-content;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #5d3913;
+}
+.AboutusContent p ,.Vision div p{
+    color: #6e6c6c;
+    line-height: 26px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Aboutus .AboutusImg img,.Vision div img{
+    width: 100%;
+}

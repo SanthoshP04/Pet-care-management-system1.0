@@ -1,0 +1,73 @@
+
+
+.OurBlogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 25px;
+}
+.OurBlogs .OurBlogs_Row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+}
+
+.OurBlogsBox {
+    position: relative;
+    width: calc(100% / 3 - 25px);
+    height: 600px;
+    width: 500px;
+    margin-block:15px ;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(104, 101, 101, 0.7);
+
+}
+.OurBlogsBox:hover{
+transform: scale(1.01);
+}
+.OurBlogsBox img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+.OurBlogsBox .OurBlogsBoxContent {
+    padding: 10px;
+}
+.OurBlogsBox .OurBlogsBoxContent h6{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20ch;
+    white-space: nowarp;
+}
+.OurBlogsBox .OurBlogsBoxContent p{
+    font-size: 13px;
+    color: rgb(36, 33, 33);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    margin-bottom:10px;
+   
+}
+.OurBlogsBox a {
+ 
+    background: var(--main);
+    color: #ffffff;
+    font-weight: 800;
+    width: max-content;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+   
+}

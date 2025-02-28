@@ -1,0 +1,57 @@
+.ContactForm{
+    display: flex;
+    justify-content: center;
+    margin-block: 30px;
+}
+.ContactForm form{
+    box-shadow: 
+    0px 4px 8px rgba(0, 0, 0, 0.2),   
+    0px -4px 8px rgba(0, 0, 0, 0.2), 
+    4px 0px 8px rgba(0, 0, 0, 0.2),
+    -4px 0px 8px rgba(0, 0, 0, 0.2); 
+  padding: 20px;
+  width: 900px;
+  border-radius: 10px;
+  
+}
+.ContactForm form h6{
+    font-weight: 900;
+    font-size: 40px;
+    font-weight: 800;
+    color:var(--main);
+    text-align: center;
+
+}
+.ContactForm form button{
+    width: 100%;
+    background: var(--main);
+    padding: 7px 18px;
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ContactForm form .Error{
+   
+color:rgb(238, 8, 8);
+padding: 7px 16px;
+width: 100%;
+text-align:center;
+border-radius: 999px;
+margin-bottom: 10px;
+
+
+}
+.ContactForm form .Success{
+   
+    color:rgb(10, 131, 28);
+    padding: 7px 16px;
+    width: 100%;
+    text-align:center;
+    border-radius: 999px;
+    margin-bottom: 10px;
+    
+    
+    }
+    

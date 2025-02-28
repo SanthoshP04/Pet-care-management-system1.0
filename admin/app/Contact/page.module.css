@@ -1,0 +1,68 @@
+.ContactForm_Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+ .h6text{
+    font-weight: 800;
+    font-size: 30px;
+text-align: center;
+margin-bottom:30px ;
+
+}
+.ContactForm_Main .ContactForm_Rows{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+}
+.ContactForm_Main .ContactForm_Rows .ContactForm_Box{
+    position: relative;
+    width: calc(100% / 3 - 25px);
+    height: max-content;
+    padding: 32px;
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+width: max-content;
+}
+.ContactForm_Box h6{
+    font-weight: 700;
+    font-size: 18px;
+}
+.ContactForm_Box span {
+    font-weight: 800;
+    color: var(--main);
+}
+.ContactForm_Box h5{
+    font-weight: 800;
+    font-size: 14px;
+}
+.ContactForm_Box .Subject {
+    margin-block: 4px;
+    font-weight: 800;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ContactForm_Box .Message {
+    margin-block: 4px;
+   color: #413d3d;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ContactForm_Box .CreatedAT{
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+    color: #444242;
+}

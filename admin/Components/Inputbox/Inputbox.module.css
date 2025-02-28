@@ -1,0 +1,28 @@
+.Inputbox, .TextAreaBox ,.ImageUpload{ 
+    margin-block:5px ;
+}
+
+
+.TextAreaBox textarea{
+    width: 700px;
+    background: #ccc;
+    border-radius:10px;
+    resize: none;
+    padding: 12px 20px;
+    margin-top: 8px;
+    height: 200px;
+    font-size: 18px;
+}
+.Inputbox input{
+    width: 700px;
+    background: #ccc;
+padding: 12px 20px;
+border-radius: 999px;
+margin-top: 8px;
+font-size: 18px;
+}
+.Inputbox label , .TextAreaBox label ,
+.ImageUpload label{
+    font-weight: 800;
+font-size: 18px;
+}

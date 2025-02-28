@@ -1,0 +1,16 @@
+.Content{display: flex;
+    justify-content: space-between;
+    margin-block: 30px;
+
+
+}
+.Content h6 {
+    font-weight: 800;
+    font-size: 30px;
+}
+.Content a{
+    text-decoration: underline;
+    color:var(--main);
+    font-size: 22px;
+    font-weight: 800;
+}

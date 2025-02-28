@@ -1,0 +1,49 @@
+.AuthRow {
+    position:absolute;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+align-items: center;
+}
+.Auth form {
+    box-shadow:var(--boxshadow );
+    padding: 20px;
+    border-radius: 8px;
+}
+.Auth form h6 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.Auth form .Btn{
+    width: 100%;
+    padding: 8px 17px;
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+    background: var(--main);
+}
+.Auth form p{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #060606;
+}
+.Auth form p span{
+    color: var(--main);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Auth form {
+    border: 1px solid #ccc; 
+    box-shadow: 0px 2px 5px rgba(10, 10, 10, 0.2);
+    padding: 20px;
+  }
+  .Auth form .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}

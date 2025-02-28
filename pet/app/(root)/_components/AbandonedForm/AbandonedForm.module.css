@@ -1,0 +1,129 @@
+/* /* General Styles */
+.AbandonedForm_Main {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  margin: 0 auto;
+}
+.AbandonedForm_Main .AbandonedForm_Row .Report{
+text-align: center;
+font-size: 45px;
+font-weight: 900;
+}
+.AbandonedForm_Row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between form elements */
+}
+
+/* Form Label and Input */
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input[type="tel"] {
+  appearance: none; /* Fix phone number input appearance */
+}
+
+/* Textarea */
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Image Upload */
+.ImageUpload {
+  margin-top: 20px;
+}
+
+.UploadDropzone_WithImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UploadDropzone_WithImg img {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.Success{
+   
+  color:rgb(10, 131, 28);
+  padding: 7px 16px;
+  width: 100%;
+  text-align:center;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  
+  
+  }
+/* Submit Button */
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  background-color: #004085;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .AbandonedForm_Main {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+}
+ 

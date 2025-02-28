@@ -1,0 +1,35 @@
+.InputBox{
+    margin-block: 8px;
+  
+
+}
+.InputBox label{
+    font-weight: 700;
+    font-size: 22px;
+
+}
+.InputBox input
+{
+  
+    width: 800px;
+    padding: 10px 15px;
+    border-radius: 999px;
+    background: #ccc;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.InputBox textarea{
+    height: 17rem;
+    width: 800px;
+    resize: none;
+    font-size: 18px;
+
+    padding: 10px 15px;
+    border-radius:15px;
+    background: #ccc;
+    font-weight: 700;
+    margin-top: 10px;
+
+
+}

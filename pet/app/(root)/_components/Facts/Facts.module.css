@@ -1,0 +1,17 @@
+.Facts{
+    margin-block:30px ;
+    text-align: center;
+    padding-inline:200px ;
+}
+.Facts h6{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom:20px ;
+    color: var(--main);
+
+}
+.Facts p{
+    color: rgb(163, 162, 162);
+    line-height: 28px;
+    font-size:30px ;
+}

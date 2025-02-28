@@ -1,0 +1,30 @@
+.MainBg{
+    position: relative;
+}
+.MainBg img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+.MainBg.MainBgOverly{
+position: absolute;
+top:0;
+left: 0;
+height: 90vh;
+width: 100%;
+background:#000;
+opacity: 0.2;
+}
+.MainBgContent{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.MainBgContent h6{
+    font-weight: 800;
+    font-size: 60px;
+    border-bottom: 0.2px dashed #cccc;
+}

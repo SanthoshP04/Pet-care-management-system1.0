@@ -1,0 +1,142 @@
+
+ .Footer{
+    background: linear-gradient(rgba(202, 201, 201, 0.6) rgba(121, 119, 119, 0.8));
+   background-image:url(/footer1.jpeg);
+    background-size:cover ;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+   
+    background-attachment: fixed;
+    padding-inline: 0px;
+    padding-block: 30px; 
+}
+    
+
+
+ .FooterRows1{
+    justify-content: space-between;
+    padding-inline:50px ;
+    padding-block: 30px; 
+   
+   
+ }
+.FooterRows1{
+    background: linear-gradient(rgba(20, 20, 20, 0.6) rgba(17, 17, 17, 0.8));
+    background-image:url(/footer1.jpeg);
+     background-size:cover ;
+     background-position: center;
+     height: 60vh;
+     width: 100%;
+     background-attachment: fixed;
+     padding-inline: 100px;
+     padding-block: 30px; 
+    }
+     
+
+.FooterRows1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(22rem, 1fr));
+    gap:20px;
+  color: #f9f4f4;
+  
+    margin-bottom: 0px;
+    padding: 10px;
+    border-bottom: 0.2px dashed #f5f2f2;
+
+}
+
+.FooterRows1 div:first-child{
+    text-align: center;
+}
+.FooterRows1 div :first-child img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.FooterRows1 div h6{
+    font-weight: 800;
+    font-size: 30px;
+    margin-block: 10px;
+   
+    
+   
+}
+.FooterRows1 div {
+    
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+.FooterRows1 div a{
+    color: #fff;
+    width: max-content;
+  
+}
+.FooterRows1 div a:hover{
+    margin-left: 0;
+   
+}
+.FooterRows1 div :hover{
+    transform: scale(1.02);
+   
+}
+.FooterRows1 div a{
+    color: #fff;
+    text-decoration: none;
+  
+}
+ .FooterRows2{
+    background: linear-gradient(rgba(20, 20, 20, 0.6) rgba(17, 17, 17, 0.8));
+    background-image:url(/footer1.jpeg);
+     background-size:cover ;
+     background-position: center;
+     height: 10vh;
+     width: 100%;
+     background-attachment: fixed;
+      }
+     
+
+
+ General Footer Styles 
+.Footer {
+   margin-top:0 ;
+    color: #faf5f5;
+    padding: 30px 200px; 
+    display: flex;
+  
+} 
+
+.FooterRows2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 20px; 
+}
+
+
+.FooterRows2 h6 {
+    font-size: 18px;
+  color: #ccc;
+} 
+
+
+.FooterRows2 .SocialIcons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+
+.SocialIcons a {
+    text-decoration: none;
+    color: #fcfafa;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.SocialIcons a:hover {
+    color: #fbf8f8; 
+} 

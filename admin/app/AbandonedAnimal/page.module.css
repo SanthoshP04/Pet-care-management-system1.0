@@ -1,0 +1,79 @@
+/* General styling for the Wrapper */
+.Abandoned_Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the header text */
+  .h6text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Rows container for the cards */
+  .Abandoned_Rows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Individual card styling */
+  ._Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  ._Box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Styling for the image */
+  ._Box img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Text inside the cards */
+  ._Box h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #131313;
+    margin: 5px 0;
+  }
+  
+  ._Box h6 span {
+    font-weight: bold;
+    color: #222;
+  }
+  
+  ._Box p {
+    font-size: 0.9rem;
+    color: #2d2a2a;
+    margin: 5px 0;
+  }
+  
+  /* Fallback message styling */
+  .Abandoned_Main p {
+    font-size: 1rem;
+    color: #0f0f0f;
+    margin: 20px 0;
+  }

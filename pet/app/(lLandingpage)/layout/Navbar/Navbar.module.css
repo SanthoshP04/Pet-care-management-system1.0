@@ -1,0 +1,31 @@
+.Navbar{
+    display: flex;
+    justify-self: space-between;
+    padding-inline: 200px;
+    padding-block: 10px;
+    background: #fff;
+}
+.Navbar img{
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:var(--boxShadow);
+}
+.Navbar .NavLinks {
+    margin-top: 60px;
+    display:flex;
+    gap: 20px;
+
+}
+.Navbar .NavLinks div a{
+    color: #000;
+    margin-inline:5px;
+    padding: 8px 15px;
+    border-radius: 999px; 
+    font-size: 20px;
+    text-decoration:none ;
+
+}
+.Navbar .NavLinks div a:hover{
+    background: var(--main);
+    color: #fff;
+}
